@@ -1,0 +1,21 @@
+[package]
+name        = "sck-crypto"
+version     = "2.1.0"
+edition     = "2021"
+description = "SCK v2.1 — Multi-layer symmetric cipher: ChaCha20 + Fisher-Yates + XOR fold"
+license     = "MIT"
+
+[lib]
+name = "sck_crypto"
+path = "src/lib.rs"
+
+[[bin]]
+name = "sckv2_1"
+path = "src/sckv2_1.rs"
+
+[profile.release]
+opt-level     = 'z'  # size over speed
+lto           = true # dead-code elimination via LTO
+codegen-units = 1    # single CGU → better inlining, smaller binary
+panic         = 'abort'
+strip         = true
