@@ -1,2 +1,3 @@
 # Compile
 ./target/*
+./Cargo.lock
