@@ -3,7 +3,7 @@ name        = "sck-crypto"
 version     = "2.1.0"
 edition     = "2021"
 description = "SCK v2.1 — Multi-layer symmetric cipher: ChaCha20 + Fisher-Yates + XOR fold"
-license     = "MIT"
+license     = "apache2"
 
 [lib]
 name = "sck_crypto"
