@@ -103,4 +103,4 @@ For production: **AES-256-GCM** or **ChaCha20-Poly1305** (with authenticated enc
 
 ## License
 
-MIT
+Apache2
