@@ -1,5 +1,7 @@
 # SCK v2.1 — Signature CryptoKey
 
+> ONLY FOR EDUCATION PURPOSE ONLY.
+
 Multi-layer symmetric cipher. Full printable ASCII. Zero dependencies. Pure safe Rust.
 
 ---
